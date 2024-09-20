@@ -1,0 +1,6 @@
+1- No hay diferencias drasticas entre la cantidad de codigo escrito utilizando llamadas a procedimientos y orm, salvo por las lineas de los procedimientos. 
+    En un programa tan corto no se va a notar, pero en programas que requieran mayor robustes y escalabilidad, ante tan poca diferencia de lineas usar procedimientos almacenados te ahorra el uso de un orm.
+2-Las llamadas a procedimientos almacenados suelen ser más eficientes en términos de rendimiento, pero no puedo comprobarlo en tan poco programa.
+3-El uso de procedimientos almacenados requiere conocimiento de SQL y de cómo interactuar con la base de datos. Si los procedimientos son muy elaborados o si se gestionan errores manualmente la complejidad deberia aumentar.
+En contraposicion el uso de ORM puede ser más intuitivo(???¿¿¿)
+4-Por lo anterior expuesto los ORM parecen ser más amigables para el desarrollo
